@@ -1,0 +1,9 @@
+curl -X POST
+"https://devapi.globelabs.com.ph/smsmessaging/v1/outbound/1234/requests?access_token=8df12f06e279fc5a29bec28107b268b55f2c3348c20adb9bb15d3c898fff1950" -H "Content-Type: application/json" -d
+{"outboundSMSMessageRequest": {
+   "clientCorrelator": "123456",
+   "senderAddress": "1234",
+   "outboundSMSTextMessage": {"message": "Hello World"},
+   "address": "9088816246"
+ }
+}
